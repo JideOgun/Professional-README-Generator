@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "inquirer": "^8.2.0",
     "jshint": "^2.13.2"
-  }
+  },
+  "name": "professional-readme-generator",
+  "description": "Title: Weather  description: Descr",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JideOgun/Professional-README-Generator.git"
+  },
+  "author": "Jide Ogunbanjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JideOgun/Professional-README-Generator/issues"
+  },
+  "homepage": "https://github.com/JideOgun/Professional-README-Generator#readme"
 }
