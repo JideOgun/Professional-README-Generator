@@ -1,3 +1,6 @@
 
 create function that accepts command line arguments as input and create the readme content from it.
 use node.js library to create Readme file on the computer
+make functions that generate different sections of the readme.
+add license badge after user selects between the license choices.
+modify function to add multiple credits using recursive method
