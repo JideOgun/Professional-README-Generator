@@ -1,5 +1,7 @@
 
 const inquirer = require('inquirer');
+const fs = require("fs");
+const generatePage = require('./src/page-template');
 
 const promptUser = () => {
     console.log(`
@@ -10,77 +12,126 @@ const promptUser = () => {
 return inquirer.prompt([{
     type: 'input',
     name: 'title',
-    message: 'What is the title of your project?'
+    message: 'What is the title of your project? (Required)',
+    validate: titleInput => {
+        if(titleInput) {
+            return true;
+        } else {
+            console.log('Please enter a title!');
+            return false;
+        }
+    }
 },
 {
     type: 'input',
     name: 'githubUsername',
-    message: 'What is your github username?'
+    message: 'What is your github username?',
+    validate: usernameInput => {
+        if(usernameInput) {
+            return true;
+        } else {
+            console.log('Please enter your Github username!');
+            return false;
+        }
+    }
 },
 {
     type: 'input',
     name: 'email',
-    message: 'What is your email address?'
+    message: 'What is your email address?',
+    validate: emailInput => {
+        if(emailInput) {
+            return true;
+        } else {
+            console.log('Please enter your email address!');
+            return false;
+        }
+    }
 },
 {
     type: 'input',
     name: 'description',
     message: 'Provide some description about the project'
 },
-
-]);
-};
-
-
-const promptContent = () => {
-return inquirer.prompt([{
+{
     type: 'confirm',
     name: 'Installation',
     message: 'Would you like to add Installation Instructions about this repo?'
-},
-{
+    },
+    {
     type: 'input',
-    name: 'Installation Instructions',
-    message: 'Provide Installation Instructions about this repo'
-},
-{
+    name: 'InstallationInstructions',
+    message: 'Provide Installation Instructions about this repo',
+    when: ({ Installation }) => { if(Installation) {
+        return true;
+    } else {
+        return false;
+         }
+     }
+    },
+    {
     type: 'confirm',
     name: 'usageinfo',
     message: 'Would you like to add usage information?'
-},
-{
+    },
+    {
     type: 'input',
     name: 'Usage',
-    message: 'Provide usage information about the project'
-},
-{
+    message: 'Provide usage information about the project',
+    when: ({ usageinfo }) => { if(usageinfo) {
+        return true;
+    } else {
+        return false;
+         }
+     }
+    },
+    {
     type: 'confirm',
-    name: 'contributionnotes',
+    name: 'contributionNotes',
     message: 'Would you like to add notes on the contributions to this repo?'
-},
-{
+    },
+    {
     type: 'input',
     name: 'contribution',
-    message: 'Provide contribution guidelines about the project'
-},
-{
+    message: 'Provide contribution guidelines about the project',
+    when: ({ contributionNotes }) => { if(contributionNotes) {
+        return true;
+    } else {
+        return false;
+         }
+     }
+    },
+    {
     type: 'confirm',
-    name: 'testInstr',
+    name: 'testInstructions',
     message: 'Would you like to add any instructions for running tests?'
-},
-{
+    },
+    {
     type: 'input',
-    name: 'test instructions',
-    message: 'Provide some test instructions about the project'
-},
-{
+    name: 'testGuide',
+    message: 'Provide some test instructions about the project',
+    when: ({ testInstructions }) => { if(testInstructions) {
+        return true;
+    } else {
+        return false;
+         }
+     }
+    },
+    {
     type: 'rawlist',
     name: 'Licenses',
     message: 'choose a license',
-    choices: ['MIT', 'The Unlicense', 'Mozilla Public License', 'Apache License', 'GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3']
-}
+    choices: ['MIT', 'The Unlicense', 'Mozilla Public License 2.0', 'Apache License', 'EPL-2.0', 'GPL-2.0', 'EPL-2.0']
+    }
 ]);
 };
+
+
+// const promptContent = () => {
+// return inquirer.prompt([
+    
+// ]);
+// };
 
 const addCredits = creditData => {
     console.log(`
@@ -102,7 +153,13 @@ return inquirer.prompt([
 {
     type: 'input',
     name: 'credits',
-    message: 'Provide some credits for the project'
+    message: 'Provide some credits for the project',
+    when: ({ creditConfirm }) => { if(creditConfirm) {
+        return true;
+    } else {
+        return false;
+         }
+     }
 },
 {
     type: 'confirm',
@@ -123,18 +180,21 @@ return inquirer.prompt([
 };
 
 
-promptUser().then(promptContent)
-    .then(addCredits)
+promptUser()
+.then(addCredits)
     .then(creditData => {
-        console.log(creditData);
+        const readmePage = generatePage(creditData);
+        fs.writeFile('README.md', readmePage, err => {
+            if(err) throw new Error(err);
+            console.log('ReadMe created! check it out!');
+        });
     });
 
 
 
 
 
-// const fs = require("fs");
-// const generatePage = require('./src/page-template');
+
 // const profileDataArgs = process.argv.slice(2, process.argv.length);
 
 
