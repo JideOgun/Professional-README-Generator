@@ -1,6 +1,6 @@
 
 const inquirer = require('inquirer');
-const fs = require("fs");
+const { writeFile } = require('./utils/generate-readme');
 const generatePage = require('./src/page-template');
 
 const promptUser = () => {
@@ -126,13 +126,6 @@ return inquirer.prompt([{
 ]);
 };
 
-
-// const promptContent = () => {
-// return inquirer.prompt([
-    
-// ]);
-// };
-
 const addCredits = creditData => {
     console.log(`
     =================
@@ -183,26 +176,22 @@ return inquirer.prompt([
 promptUser()
 .then(addCredits)
     .then(creditData => {
-        const readmePage = generatePage(creditData);
-        fs.writeFile('README.md', readmePage, err => {
-            if(err) throw new Error(err);
-            console.log('ReadMe created! check it out!');
-        });
+        return generatePage(creditData);
+        })
+        .then(readmePage => {
+            return writeFile(readmePage);
+        }).then(writeFileResponse => {
+            console.log(writeFileResponse);
+            return ;
+        }).catch(err => {
+            console.log(err);
     });
+    
 
 
 
-
-
-
-// const profileDataArgs = process.argv.slice(2, process.argv.length);
-
-
-// const [projectTitle, description] = profileDataArgs;
-
-// fs.writeFile('README.md', generatePage(projectTitle, description), err => {
-//     if(err) throw err;
-//     console.log('Done, checkout the readme file');
-// });
-
+    // const readmePage = generatePage(creditData);
+    // fs.writeFile('./dist/README.md', readmePage, err => {
+    //     if(err) throw new Error(err);
+    //     console.log('ReadMe created! check it out!');
 
