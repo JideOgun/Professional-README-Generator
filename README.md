@@ -18,7 +18,7 @@ Jide's ReadMe Generator Module 9 Challenge Assignment.
  
    ReadMe generator using Node.js that can be accessed through the Command Line Interface that prompts users for input, and then puts the inputs into their respective sections. When the prompts are finished, a file will generated as a markdown.
 
-   ## Node.js functionality
+   ### Node.js functionality
    ### The ReadMe Generator is written in Node.js and uses the Inquirer module for its propmts and confirmations.
 
    ### When the app starts. The user is welcomed to the app and a markdown cheat sheet is presented to the user.
