@@ -186,12 +186,4 @@ promptUser()
         }).catch(err => {
             console.log(err);
     });
-    
-
-
-
-    // const readmePage = generatePage(creditData);
-    // fs.writeFile('./dist/README.md', readmePage, err => {
-    //     if(err) throw new Error(err);
-    //     console.log('ReadMe created! check it out!');
 

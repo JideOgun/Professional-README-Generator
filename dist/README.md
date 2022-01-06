@@ -1,8 +1,9 @@
 # Title
-jides project
+xxx
 ---
  
-[![License](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![License]https://img.shields.io/badge/License-Mozilla%20Public%20License%202.0-blueviolet.svg)](https://opensource.org/licenses/MPL-2.0)
+
 ## Table of Contents
 ---
 1. [DESCRIPTION](#description)
@@ -17,42 +18,43 @@ jides project
 
  ## DESCRIPTION
  
-            descriptionsdvfsdsfv
+            xxx
             
  ---
 
  ## LICENSES
- MIT
+ 
+ Mozilla Public License 2.0
  ---
 
  ## INSTALLATION INSTRUCTIONS
  
-    Inmstallation instructuionssdfsfjgfdsjf
+    yyy
     
  ---
 
  ## USAGE INFORMATION
  
-        Usafge insofrmamankditnkgjdfvjdjnfjknfdkndfknknfd
+        yyy
         
  ---
 
 ## CONTRIBUTION GUIDELINES
 
 
-            contributionsdncsdcndscnlksdncknskjncvkjnsdfvklsfdvvf
+            yyy
                 
 ---
 
 ## TEST INSTRUCTIONS
 
 
-            testtttttttttttttttttttttttttttttttttssssssssss
+            yyy
 ---
 
 
 ## CREDITS
-[object Object],[object Object]
+jjjj
 ---
 
 
@@ -60,6 +62,6 @@ jides project
 ## Questions
 
 For any questions 
-- Email: [jideogun93@gmail.com](mailto:jideogun93@gmail.com)
-- Gihtub: [jideogun](github.com/jideogun)
+- Email: [xxx](mailto:xxx)
+- Gihtub: [xxx](https://github.com/xxx)
  

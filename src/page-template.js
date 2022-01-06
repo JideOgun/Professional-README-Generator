@@ -87,7 +87,9 @@ const genTestInstructions = (instructions) => {
 const genCredits = (credits) => {
         if (!credits) {
         return '';}
-        {return`${credits}`;}
+        {return`${credits.map(({credits}) => {
+            return `${credits}`;
+        })}`;}
         };
 const genLicense = (license) => {
         if (!license) {
@@ -122,6 +124,7 @@ ${title}
  ---
 
  ## LICENSES
+ 
  ${genLicense(Licenses)}
  ---
 
@@ -154,7 +157,7 @@ ${genCredits(credits.credits)}
 
 For any questions 
 - Email: [${email}](mailto:${email})
-- Gihtub: [${githubUsername}](github.com/${githubUsername})
+- Gihtub: [${githubUsername}](https://github.com/${githubUsername})
  `;
 };
 
