@@ -8,7 +8,7 @@ const promptUser = () => {
     ===============================================
     Welcome to Jide's README generator app
 
-    Here's a Makrdown Cheat Sheet
+    Here's a Markdown Cheat Sheet
         Element	             MarkdownSyntax
         Heading	             # H1
                              ## H2
@@ -31,7 +31,7 @@ const promptUser = () => {
         Horizontal Rule	     ---
 
         Link	             [title](https://www.example.com)
-        
+
         Image	             ![alt text](image.jpg)
     ===============================================
     `);

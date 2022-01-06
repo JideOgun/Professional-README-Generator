@@ -1,5 +1,5 @@
 # Title
-Jide's ReadMe Generator
+Jide's readMe Generator
 ---
  
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
@@ -17,7 +17,7 @@ Jide's ReadMe Generator
 
  ## DESCRIPTION
  
-        ReadMe generator using Node.js
+        readMe generator using Node.js
 
  ---
 
@@ -29,34 +29,31 @@ Jide's ReadMe Generator
 
  ## INSTALLATION INSTRUCTIONS
  
-        install exe
+        install node, npm, inquirer
 
  ---
 
  ## USAGE INFORMATION
  
-        use Node.js
+        Run in Node environment.
 
  ---
 
 ## CONTRIBUTION GUIDELINES
 
 
-        contrubtions
-
 ---
 
 ## TEST INSTRUCTIONS
 
 
-        Test instruciontsss
 ---
 
 
 ## CREDITS
 
-        credits,
-        fff
+        UT Modules,
+        NatemKing
 ---
 
 
@@ -65,5 +62,5 @@ Jide's ReadMe Generator
 
 For any questions 
 - Email: [jideogun93@gmail.com](mailto:jideogun93@gmail.com)
-- Gihtub: [jideogun](https://github.com/jideogun)
+- Gihtub: [Jideogun](https://github.com/Jideogun)
  
