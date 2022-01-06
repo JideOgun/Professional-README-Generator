@@ -19,31 +19,31 @@ Jide's ReadMe Generator Module 9 Challenge Assignment.
    ReadMe generator using Node.js that can be accessed through the Command Line Interface that prompts users for input, and then puts the inputs into their respective sections. When the prompts are finished, a file will generated as a markdown.
 
    ### Node.js functionality
-   ### The ReadMe Generator is written in Node.js and uses the Inquirer module for its propmts and confirmations.
+   The ReadMe Generator is written in Node.js and uses the Inquirer module for its propmts and confirmations.
 
-   ### When the app starts. The user is welcomed to the app and a markdown cheat sheet is presented to the user.
+   When the app starts. The user is welcomed to the app and a markdown cheat sheet is presented to the user.
 
-   ### Then the user is prompted for the title of their project.
+   Then the user is prompted for the title of their project.
 
-   ### Then the user is prompted for their github username.
+   Then the user is prompted for their github username.
 
-   ### Then the user is prompted for their email address.
+   Then the user is prompted for their email address.
 
-   ### Then the user is prompted for a description for their project.
+   Then the user is prompted for a description for their project.
 
-   ### Then the user is asked for Yes or No confirmation if the user would like to add Installation Instructions. If the user picks Yes, the user is prompted to add Installtion Instructions. If the user picks No, then it moves to the next prompt.
+   Then the user is asked for Yes or No confirmation if the user would like to add Installation Instructions. If the user picks Yes, the user is prompted to add Installtion Instructions. If the user picks No, then it moves to the next prompt.
 
-   ### Then the user is asked for Yes or No confirmation if the user would like to add Usage Information. If the user picks Yes, the user is prompted to add Usage Information. If the user picks No, then it moves to the next prompt.
+   Then the user is asked for Yes or No confirmation if the user would like to add Usage Information. If the user picks Yes, the user is prompted to add Usage Information. If the user picks No, then it moves to the next prompt.
 
-   ### Then the user is asked for Yes or No confirmation if the user would like to add Contributions Notes. If the user picks Yes, the user is prompted to add Contributions Notes. If the user picks No, then it moves to the next prompt.
+   Then the user is asked for Yes or No confirmation if the user would like to add Contributions Notes. If the user picks Yes, the user is prompted to add Contributions Notes. If the user picks No, then it moves to the next prompt.
 
-   ### Then the user is asked for Yes or No confirmation if the user would like to add Contributions Notes. If the user picks Yes, the user is prompted to add Contributions Notes. If the user picks No, then it moves to the next prompt.
+   Then the user is asked for Yes or No confirmation if the user would like to add Contributions Notes. If the user picks Yes, the user is prompted to add Contributions Notes. If the user picks No, then it moves to the next prompt.
 
-   ### Then the user is asked for Yes or No confirmation if the user would like to add Test Instructions. If the user picks Yes, the user is prompted to add Test Instructions. If the user picks No, then it moves to the next prompt.
+   Then the user is asked for Yes or No confirmation if the user would like to add Test Instructions. If the user picks Yes, the user is prompted to add Test Instructions. If the user picks No, then it moves to the next prompt.
 
-   ### Then the user is given options of licenses to choose from. The user has to enter an index from the available options.
+   Then the user is given options of licenses to choose from. The user has to enter an index from the available options.
    
-   ### Then the user is asked for Yes or No confirmation if the user would like to add credits. If the user picks Yes, the user is prompted to add credits. Then a recursive prompts asks the user if they would like to add more credits until the user picks No. When the user picks No, then the ReadMe file is generated with a message telling the user which folder it is generated in.
+   Then the user is asked for Yes or No confirmation if the user would like to add credits. If the user picks Yes, the user is prompted to add credits. Then a recursive prompts asks the user if they would like to add more credits until the user picks No. When the user picks No, then the ReadMe file is generated with a message telling the user which folder it is generated in.
  ---
  ## LICENSES
         Licensed under the Apache License License.
