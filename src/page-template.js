@@ -12,7 +12,7 @@ return `
 
 else if (Licenses === 'Mozilla Public License 2.0') {
 return `
-[![License]https://img.shields.io/badge/License-Mozilla%20Public%20License%202.0-blueviolet.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-Mozilla%20Public%20License%202.0-blueviolet.svg)](https://opensource.org/licenses/MPL-2.0)
 `;}
 
 else if (Licenses === 'Apache License') {
@@ -88,13 +88,15 @@ const genCredits = (credits) => {
         if (!credits) {
         return '';}
         {return`${credits.map(({credits}) => {
-            return `${credits}`;
+            return `
+            ${credits}`;
         })}`;}
         };
 const genLicense = (license) => {
         if (!license) {
         return '';}
-        {return`${license}`;}
+        {return`
+        ${license}`;}
         };
     
 

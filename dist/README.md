@@ -1,8 +1,8 @@
 # Title
-xxx
+JIDE'S PROJECT
 ---
  
-[![License]https://img.shields.io/badge/License-Mozilla%20Public%20License%202.0-blueviolet.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-GPL--2.0-critical.svg)](https://opensource.org/licenses/GPL-2.0)
 
 ## Table of Contents
 ---
@@ -18,43 +18,46 @@ xxx
 
  ## DESCRIPTION
  
-            xxx
+            ReadMe Generator using Node.js
             
  ---
 
  ## LICENSES
  
- Mozilla Public License 2.0
+ 
+        GPL-2.0
  ---
 
  ## INSTALLATION INSTRUCTIONS
  
-    yyy
+    Run Install.exe
     
  ---
 
  ## USAGE INFORMATION
  
-        yyy
+        Usage is trash
         
  ---
 
 ## CONTRIBUTION GUIDELINES
 
 
-            yyy
+            Only Jide wrote this, and some guys github also helped
                 
 ---
 
 ## TEST INSTRUCTIONS
 
 
-            yyy
+            There's not much to test tbh
 ---
 
 
 ## CREDITS
-jjjj
+
+            Some guys repo from github,
+            UT's modules
 ---
 
 
@@ -62,6 +65,6 @@ jjjj
 ## Questions
 
 For any questions 
-- Email: [xxx](mailto:xxx)
-- Gihtub: [xxx](https://github.com/xxx)
+- Email: [Jideogun93@gmail.com](mailto:Jideogun93@gmail.com)
+- Gihtub: [JideOgun](https://github.com/JideOgun)
  
