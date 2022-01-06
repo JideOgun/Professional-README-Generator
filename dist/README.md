@@ -1,8 +1,8 @@
 # Title
-JIDE'S PROJECT
+Jide's Project
 ---
  
-[![License](https://img.shields.io/badge/License-GPL--2.0-critical.svg)](https://opensource.org/licenses/GPL-2.0)
+[![License](https://img.shields.io/badge/License-Apache--2.0-red.svg)](https://opensource.org/licenses/unlicense)
 
 ## Table of Contents
 ---
@@ -18,46 +18,46 @@ JIDE'S PROJECT
 
  ## DESCRIPTION
  
-            ReadMe Generator using Node.js
-            
+        readme generator using node.js
+
  ---
 
  ## LICENSES
  
  
-        GPL-2.0
+        Licensed under the Apache License License.
  ---
 
  ## INSTALLATION INSTRUCTIONS
  
-    Run Install.exe
-    
+        use node
+
  ---
 
  ## USAGE INFORMATION
  
-        Usage is trash
-        
+        run in Node environment
+
  ---
 
 ## CONTRIBUTION GUIDELINES
 
 
-            Only Jide wrote this, and some guys github also helped
-                
+        noooooooooooooo
+
 ---
 
 ## TEST INSTRUCTIONS
 
 
-            There's not much to test tbh
+        run install exe
 ---
 
 
 ## CREDITS
 
-            Some guys repo from github,
-            UT's modules
+        natemking,
+        ut modules
 ---
 
 
@@ -65,6 +65,6 @@ JIDE'S PROJECT
 ## Questions
 
 For any questions 
-- Email: [Jideogun93@gmail.com](mailto:Jideogun93@gmail.com)
-- Gihtub: [JideOgun](https://github.com/JideOgun)
+- Email: [jideogun93@gmail.com](mailto:jideogun93@gmail.com)
+- Gihtub: [jideogun](https://github.com/jideogun)
  

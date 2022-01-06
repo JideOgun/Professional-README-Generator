@@ -39,64 +39,64 @@ return `
 
 const genInstallation = (Installation) => {
 if (!Installation) {
-    return '';
+return '';
 }
 {return`
-    ${Installation}
-    `;
+        ${Installation}
+`;
 }
 };
 
 const genUsage = (Usage) => {
-    if (!Usage) {
-        return '';
-    }
-    {return`
+if (!Usage) {
+return '';
+}
+{return`
         ${Usage}
-        `;
-    }
-    };
+`;
+}
+};
 
 const genDescription = (description) => {
-        if (!description) {
-            return '';
-        }
-        {return`
-            ${description}
-            `;
-        }
-        };
+if (!description) {
+return '';
+}
+{return`
+        ${description}
+`;
+}
+};
 
 const genContribution = (contribution) => {
-        if (!contribution) {
-                return '';
-        }
-        {return`
-            ${contribution}
-                `;
-        }
-        };
+ if (!contribution) {
+ return '';
+}
+{return`
+        ${contribution}
+`;
+}
+};
 const genTestInstructions = (instructions) => {
-        if (!instructions) {
-         return '';
-         }
-        {return`
-            ${instructions}`;
-        }
-        };
+if (!instructions) {
+return '';
+}
+{return`
+        ${instructions}`;
+}
+};
 const genCredits = (credits) => {
-        if (!credits) {
-        return '';}
-        {return`${credits.map(({credits}) => {
-            return `
-            ${credits}`;
-        })}`;}
-        };
+if (!credits) {
+return '';}
+{return`${credits.map(({credits}) => {
+return `
+        ${credits}`;
+})}`;}
+};
 const genLicense = (license) => {
-        if (!license) {
-        return '';}
-        {return`
-        ${license}`;}
+if (!license) {
+return '';}
+{return`
+        Licensed under the ${license} License.`;}
         };
     
 

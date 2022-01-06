@@ -11,7 +11,7 @@ const writeFile = fileContent => {
     // if everything went well resolver the promoise and send the successful data to the .then method
     resolve({
         ok: true,
-        message: 'File Created!'
+        message: 'File Created! Check it out the dist folder!'
     });
         });
     });
