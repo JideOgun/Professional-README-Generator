@@ -5,9 +5,35 @@ const generatePage = require('./src/page-template');
 
 const promptUser = () => {
     console.log(`
-    ====================================================================
-    Welcome to the README generator app
-    ====================================================================
+    ===============================================
+    Welcome to Jide's README generator app
+
+    Here's a Makrdown Cheat Sheet
+        Element	             MarkdownSyntax
+        Heading	             # H1
+                             ## H2
+                             ### H3
+
+        Bold	             **bold text**
+
+        Italic	             *italicized text*
+
+        Blockquote	         > blockquote
+
+        Ordered List	     1. First item
+                             2. Second item
+                             3. Third item
+
+        Unordered List	     - First item
+                             - Second item
+                             - Third item
+
+        Horizontal Rule	     ---
+
+        Link	             [title](https://www.example.com)
+        
+        Image	             ![alt text](image.jpg)
+    ===============================================
     `);
 return inquirer.prompt([{
     type: 'input',

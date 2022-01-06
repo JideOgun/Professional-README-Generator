@@ -1,9 +1,8 @@
 # Title
-Jide's Project
+Jide's ReadMe Generator
 ---
  
-[![License](https://img.shields.io/badge/License-Apache--2.0-red.svg)](https://opensource.org/licenses/unlicense)
-
+[![License](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 ---
 1. [DESCRIPTION](#description)
@@ -18,46 +17,46 @@ Jide's Project
 
  ## DESCRIPTION
  
-        readme generator using node.js
+        ReadMe generator using Node.js
 
  ---
 
  ## LICENSES
  
  
-        Licensed under the Apache License License.
+        Licensed under the MIT License.
  ---
 
  ## INSTALLATION INSTRUCTIONS
  
-        use node
+        install exe
 
  ---
 
  ## USAGE INFORMATION
  
-        run in Node environment
+        use Node.js
 
  ---
 
 ## CONTRIBUTION GUIDELINES
 
 
-        noooooooooooooo
+        contrubtions
 
 ---
 
 ## TEST INSTRUCTIONS
 
 
-        run install exe
+        Test instruciontsss
 ---
 
 
 ## CREDITS
 
-        natemking,
-        ut modules
+        credits,
+        fff
 ---
 
 
