@@ -1,5 +1,5 @@
 
-
+// Function generating the badges
 const generatebadge = (Licenses) => {
     if(Licenses === 'MIT') {
 return `
@@ -37,6 +37,8 @@ return `
 }
 };
 
+
+// Functions generating the readme sections
 const genInstallation = (Installation) => {
 if (!Installation) {
 return '';

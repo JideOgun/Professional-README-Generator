@@ -198,7 +198,7 @@ return inquirer.prompt([
 
 };
 
-
+// promptUser function being called using promises
 promptUser()
 .then(addCredits)
     .then(creditData => {
