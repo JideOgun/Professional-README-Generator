@@ -46,7 +46,7 @@ Jide's ReadMe Generator Module 9 Challenge Assignment.
    Then the user is asked for Yes or No confirmation if the user would like to add credits. If the user picks Yes, the user is prompted to add credits. Then a recursive prompts asks the user if they would like to add more credits until the user picks No. When the user picks No, then the ReadMe file is generated with a message telling the user which folder it is generated in.
  ---
  ## LICENSES
-        Licensed under the Apache License License.
+        Licensed under the Apache License.
  ---
  ## INSTALLATION INSTRUCTIONS
  
