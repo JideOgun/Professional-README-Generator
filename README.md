@@ -68,6 +68,10 @@ Jide's ReadMe Generator Module 9 Challenge Assignment.
    * [Badges](https://shields.io/category/build)
    * UT Modules 9
 ---
+
+## Walkthrough Video
+   * [Walkthrough Video](https://www.youtube.com/watch?v=tB7Ugh4zZI0&ab_channel=babajideogunbanjo)
+---
 ## Questions
 For any questions 
 - Email: [jideogun93@gmail.com](mailto:jideogun93@gmail.com)
